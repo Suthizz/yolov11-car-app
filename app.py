@@ -5,7 +5,7 @@ import numpy as np
 st.title("YOLO Car Detection App :)")
 # Load YOLO model
 # model = YOLO("runs/detect/train4/weights/best.pt")
-model = YOLO("best.pt")
+model = YOLO("yolo11n.pt")
 # Upload image
 uploaded_image = st.file_uploader("Upload an image (jpg, png)", type=["jpg", "jpeg", "png"])
 
